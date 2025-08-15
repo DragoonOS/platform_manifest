@@ -4,6 +4,9 @@
   <remote  name="grapheneos"
            fetch="https://github.com/GrapheneOS/"
            revision="refs/heads/16" />
+  <remote  name="dragoonos"
+           fetch="https://github.com/DragoonOS/"
+           revision="refs/heads/16" />
   <remote  name="grapheneos-gitlab"
            fetch="https://gitlab.com/grapheneos/"
            revision="refs/heads/16" />
@@ -70,7 +73,7 @@
   <project path="device/google/bluejay-sepolicy" name="device_google_bluejay-sepolicy" groups="device,bluejay" remote="grapheneos" />
   <project path="device/google/bluejay-kernels/6.1" name="device_google_bluejay-kernels_6.1" groups="device,bluejay" clone-depth="1" remote="grapheneos" />
   <project path="device/google/caimito" name="device_google_caimito" groups="device,caimito" remote="grapheneos" />
-  <project path="device/google/caimito-kernels/6.1" name="device_google_caimito-kernels_6.1" groups="device,caimito" clone-depth="1" remote="grapheneos" />
+  <project path="device/google/caimito-kernels/6.1" name="device_google_caimito-kernels_6.1" groups="device,caimito" clone-depth="1" remote="dragoonos" />
   <project path="device/google/caimito-sepolicy" name="device_google_caimito-sepolicy" groups="device,caimito" remote="grapheneos" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
   <project path="device/google/comet" name="device_google_comet" groups="device,comet" remote="grapheneos" />
@@ -644,7 +647,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk,sysui-studio" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="grapheneos" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="dragoonos" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
